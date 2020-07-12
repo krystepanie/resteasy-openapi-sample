@@ -1,0 +1,18 @@
+resourcePackages:
+  - eu.k2dev.study.openapi.service
+prettyPrint: true
+cacheTTL: 0
+openAPI:
+  servers:
+    - url: http://openapi-service:8080/openapi-service
+      description: Local env
+  info:
+    version: '1.0'
+    title: Swagger Sample JAXRS application
+#    description: 'Bla bla bla'
+#    termsOfService: http://swagger.io/terms/
+    contact:
+      email: krystian.krasniewski@kansi.eu
+    license:
+      name: Apache 2.0
+      url: http://www.apache.org/licenses/LICENSE-2.0.html

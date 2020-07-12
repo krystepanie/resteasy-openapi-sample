@@ -1,0 +1,8 @@
+{
+  "library": "resteasy",
+  "dateLibrary": "java8-localdatetime",
+  "apiPackage": "eu.k2dev.study.openapi.client.api",
+  "modelPackage": "eu.k2dev.study.openapi.client.model",
+  "invokerPackage": "eu.k2dev.study.openapi.client.invoker",
+  "java8": "true"
+}

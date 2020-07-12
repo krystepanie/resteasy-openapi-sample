@@ -1,0 +1,23 @@
+openapi: 3.0.1
+info:
+  title: Swagger Sample JAXRS application
+  contact:
+    email: krystian.krasniewski@kansi.eu
+  license:
+    name: Apache 2.0
+    url: http://www.apache.org/licenses/LICENSE-2.0.html
+  version: "1.0"
+servers:
+  - url: http://openapi-service:8080/openapi-service
+    description: Local env
+paths:
+  /resources/ping:
+    get:
+      summary: Simple ping
+      operationId: ping
+      responses:
+        "200":
+          content:
+            text/plain:
+              schema:
+                type: string
